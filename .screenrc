@@ -1,0 +1,12 @@
+activity "activity in %n (%t) [%w:%s]~"
+crlf off
+defmonitor on
+defscrollback 3000
+shell -$SHELL
+startup_message off
+term $TERM
+pow_detach_msg "Screen session of \$LOGNAME \$:cr:\$:nl:ended."
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{.bW}%-w%{.rW}%n %t%{-}%+w %=%{..G} $LOGNAME@%H  %l %{..Y} %D %d/%m %C%a "
+vbell off
