@@ -1,0 +1,7 @@
+" Bundle 'terryma/vim-multiple-cursors'
+Bundle 'chriskempson/base16-vim'
+Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+" Bundle 'http://git.code.sf.net/p/vim-latex/vim-latex'
+" Bundle 'vim-scripts/applescript.vim'
+" Bundle 'elzr/vim-json'
+" Bundle 'tpope/vim-jdaddy'

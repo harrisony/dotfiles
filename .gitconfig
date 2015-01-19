@@ -1,0 +1,14 @@
+[push]
+	default = simple
+[user]
+	name = Harrison Conlin
+	email = me@harrisony.com
+[core]
+	editor = vim
+	excludesfile = /Users/hconlin/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.0.3/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
