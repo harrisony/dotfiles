@@ -14,6 +14,12 @@ Maid.rules do
     end
   end
 
+  rule 'Ansible tmp files' do
+    dir('~/*.retry').each do |path|
+      trash(path)
+    end
+  end
+
   rule 'Old files downloaded' do
     dir('~/Downloads/[!Archive/]*').each do |path|
       if 1.week.since?(accessed_at(path))
