@@ -1,2 +1,10 @@
 Host *
-VisualHostKey yes
+  VisualHostKey yes
+
+Host *.compute.amazonaws.com
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+
+Host github.com
+  VisualHostKey no
+
