@@ -6,6 +6,10 @@
 [core]
 	editor = vim
 	excludesfile = /Users/hconlin/.gitignore_global
+[url "https://"]
+	insteadOf = git://
+[diff]
+	algorithm = patience
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
