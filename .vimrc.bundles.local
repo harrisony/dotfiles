@@ -2,7 +2,9 @@
 Bundle 'tpope/vim-rbenv'
 Bundle 'chriskempson/base16-vim'
 Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
-" Bundle 'http://git.code.sf.net/p/vim-latex/vim-latex'
-" Bundle 'vim-scripts/applescript.vim'
-" Bundle 'elzr/vim-json'
-" Bundle 'tpope/vim-jdaddy'
+" Bundle 'Shougo/neocomplete.vim'
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'git://git.code.sf.net/p/vim-latex/vim-latex'
+Bundle 'godlygeek/tabular'
+Bundle 'plasticboy/vim-markdown'
+Bundle 'rizzatti/dash.vim'

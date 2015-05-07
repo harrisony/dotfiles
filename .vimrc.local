@@ -1,19 +1,20 @@
 set nocursorline " don't highlight current line
 
 " keyboard shortcuts
-" noremap jj <ESC>
+inoremap jj <ESC>
 
 " highlight search
 "set hlsearch
 "nmap <leader>hl :let @/ = ""<CR>
 
-" gui settings
-if (&t_Co == 256 || has('gui_running'))
-  colorscheme solarized
-  set background=dark
-endif
+colorscheme solarized
+let g:Powerline_symbols = 'fancy'
 
 set guifont=PragmataPro:h12
+set modeline
+set modelines=4
+
+"set smarttab
 " Disambiguate ,a & ,t from the Align plugin, making them fast again.
 "
 " This section is here to prevent AlignMaps from adding a bunch of mappings

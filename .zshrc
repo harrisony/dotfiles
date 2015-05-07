@@ -45,11 +45,8 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx brew rbenv bundler)
+plugins=(osx git rbenv github z bundler)
 
-# User configuration
-PATH="/usr/local/bin:$PATH:/usr/local/sbin"
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
+export PATH=:/usr/local/sbin:/usr/local/bin:$PATH
 source $ZSH/oh-my-zsh.sh
 
