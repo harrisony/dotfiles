@@ -1,10 +1,12 @@
+Host github.com
+  VisualHostKey no
+
+## Global
+
 Host *
   VisualHostKey yes
 
 Host *.compute.amazonaws.com
   StrictHostKeyChecking no
   UserKnownHostsFile /dev/null
-
-Host github.com ## clogs up git commands
-  VisualHostKey no
 
