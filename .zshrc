@@ -48,5 +48,7 @@ ZSH_THEME="agnoster"
 plugins=(osx git rbenv github z bundler)
 
 export PATH=:/usr/local/sbin:/usr/local/bin:$PATH
+
+[ -f ~/.zshrc.local ] && source ~/.zshrc.local
 source $ZSH/oh-my-zsh.sh
 
