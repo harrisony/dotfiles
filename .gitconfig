@@ -3,7 +3,7 @@
 	email = me@harrisony.com
 [core]
 	editor = vim
-	excludesfile = /Users/hconlin/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [url "https://"]
 	insteadOf = git://
 [diff]
